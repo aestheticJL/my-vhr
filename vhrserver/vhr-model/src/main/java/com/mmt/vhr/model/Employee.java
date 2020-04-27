@@ -1,8 +1,9 @@
 package com.mmt.vhr.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Employee {
+public class Employee implements Serializable {
 
     private String nName;
     private String pName;
